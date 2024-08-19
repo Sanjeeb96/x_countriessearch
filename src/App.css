@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.navbar {
+  padding: 5px;
+  box-shadow: 5px 10px 8px #888888;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search {
+  width: 50%;
+  height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .countryCard {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 8px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+} */
+
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.countryCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.country-flag {
+  width: 100px;
+  height: auto;
+}
+
+.country-name {
+  font-size: 16px;
+  margin-top: 10px;
 }
